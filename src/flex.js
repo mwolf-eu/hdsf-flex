@@ -1,4 +1,4 @@
-var yoga = require('yoga-layout');
+var yoga = require('yoga-layout-prebuilt');
 
 let Node = yoga.Node;
 

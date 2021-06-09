@@ -1,6 +1,6 @@
 {
   "name": "hdsf-flex",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A web worker interface to Facebook's Yoga layout code used by HDSF-Hive.",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/mwolf-eu/hdsf-flex#readme",
   "dependencies": {
-    "yoga-layout": "^1.9.3"
+    "yoga-layout-prebuilt": "^1.10.0"
   }
 }
