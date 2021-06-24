@@ -1,11 +1,11 @@
 {
   "name": "hdsf-flex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A web worker interface to Facebook's Yoga layout code used by HDSF-Hive.",
   "main": "index.js",
   "scripts": {
     "build:dev": "browserify ./src/flex.js -o ./dist/flexWorker.js",
-    "build:min": "browserify ./src/flex.js | uglifyjs -mc > ./dist/flexWorker.min.js",
+    "build:min": "browserify ./src/flex.js | terserjs -mc > ./dist/flexWorker.min.js",
     "build": "npm run build:dev && npm run build:min"
   },
   "repository": {

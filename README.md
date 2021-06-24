@@ -3,7 +3,8 @@ A web worker interface to Facebook's Yoga layout code used by HDSF-Hive.
 
 # Build Requirements
 - Browserify (npm install browserify -g)
-- Uglifyjs (npm install uglify-js -g)
+- Terser (npm install terser -g)
+- Esmify (npm install esmify)
 
 # Commands
 - `npm run build` - Runs build:dev and build:min.

@@ -124,6 +124,8 @@ function resize(layout, nodes, width, height){
     // nodes[item].node = newNodes[item].node;
   });
 
+  newNodes[nKeys[0]].node.freeRecursive(); // free allocs
+
   // send redraw msg
   if(resized) {
     // nodeOrder.forEach(d => delete(nodes[d].node)); // don't serialize
